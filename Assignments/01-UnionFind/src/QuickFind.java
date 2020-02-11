@@ -16,7 +16,10 @@ public class QuickFind implements UnionFind {
     public void union(int p, int q) {
         int setOfp = pointSets[p];
         int setOfq = pointSets[q];
-        for (int i = 0; i < count; i++) {
+
+        if (setOfp == setOfq) return;
+
+        for (int i = 0; i < pointSets.length; i++) {
             if (pointSets[i] == setOfp) {
                 pointSets[i] = setOfq;
             }
@@ -50,7 +53,8 @@ public class QuickFind implements UnionFind {
     }
 
     public static void main(String[] args) {
-        QuickFind qf = new QuickFind(11);
+        QuickFind qf = new QuickFind(10);
+        System.out.println(qf.toString());
 
         qf.union(0,1);
         System.out.println(qf.toString());
