@@ -37,6 +37,7 @@ public class QuickUnion implements UnionFind {
     public int count() {
         return count;
     }
+
     @Override
     public String toString() {
         String result = "";
@@ -47,43 +48,43 @@ public class QuickUnion implements UnionFind {
     }
 
     public static void main(String[] args) {
-        QuickFind qf = new QuickFind(10);
-        System.out.println("01: " + qf.toString());
+        QuickUnion qu = new QuickUnion(10);
+        System.out.println("01: " + qu.toString());
 
-        qf.union(4,3);
-        System.out.println("02: " + qf.toString());
+        System.out.println("02: " + qu.toString());
+        qu.union(4,3);
 
-        qf.union(3,8);
-        System.out.println("03: " + qf.toString());
+        qu.union(3,8);
+        System.out.println("03: " + qu.toString());
 
-        qf.union(6,5);
-        System.out.println("04: " + qf.toString());
+        qu.union(6,5);
+        System.out.println("04: " + qu.toString());
 
-        qf.union(9,4);
-        System.out.println("05: " + qf.toString());
+        qu.union(9,4);
+        System.out.println("05: " + qu.toString());
 
-        qf.union(2,1);
-        System.out.println("06: " + qf.toString());
+        qu.union(2,1);
+        System.out.println("06: " + qu.toString());
 
-        qf.union(8,9);
-        System.out.println("07: " + qf.toString());
+        qu.union(8,9);
+        System.out.println("07: " + qu.toString());
 
-        qf.union(5,0);
-        System.out.println("08: " + qf.toString());
+        qu.union(5,0);
+        System.out.println("08: " + qu.toString());
 
-        qf.union(7,2);
-        System.out.println("09: " + qf.toString());
+        qu.union(7,2);
+        System.out.println("09: " + qu.toString());
 
-        qf.union(6,1);
-        System.out.println("10: " + qf.toString());
+        qu.union(6,1);
+        System.out.println("10: " + qu.toString());
 
-        qf.union(1,0);
-        System.out.println("11: " + qf.toString());
+        qu.union(1,0);
+        System.out.println("11: " + qu.toString());
 
-        qf.union(6,7);
-        System.out.println("12: " + qf.toString());
+        qu.union(6,7);
+        System.out.println("12: " + qu.toString());
 
-        System.out.println(qf.count());
+        System.out.println(qu.count());
 
     }
 
