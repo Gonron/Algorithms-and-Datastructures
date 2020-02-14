@@ -23,7 +23,7 @@ public class QuickUnion implements UnionFind {
     @Override
     public int find(int p) {
         while (p != pointSets[p]) {
-             p = pointSets[p];
+            p = pointSets[p];
         }
         return p;
     }

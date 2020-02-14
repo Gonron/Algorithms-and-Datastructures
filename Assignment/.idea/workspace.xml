@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f418951-0440-45df-8fae-0ea4dc9733af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment/01-UnionFind/src/QuickFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment/01-UnionFind/src/QuickUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment/01-UnionFind/src/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment/01-UnionFind/src/WeightedUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.01-Bag/src/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.01-Bag/src/BagArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.01-Bag/src/BagLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.02-Queue/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.02-Queue/src/QueueArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.02-Queue/src/QueueLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.03-Stack/src/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.03-Stack/src/StackArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.03-Stack/src/StackLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4f00509b-c4df-423e-a66f-e770c711f417" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/01-UnionFind/src/QuickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-UnionFind/src/QuickUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-UnionFind/src/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-UnionFind/src/WeightedUnion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignments/01-UnionFind/.idea/misc.xml" beforeDir="false" />
@@ -53,26 +42,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Xn5gAH0j6J8d8qwpkHKE8YZA6N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1Xn2tRnchqKwRJB5gSxpRyhtCwG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="Application.StackLinked">
+  <component name="RunManager" selected="Application.WeightedUnion">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -80,41 +67,25 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BagLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BagLinked" />
-      <module name="1.01-Bag" />
+    <configuration name="QuickFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickFind" />
+      <module name="01-UnionFind" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueArray" />
-      <module name="1.02-Queue" />
+    <configuration name="QuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion" />
+      <module name="01-UnionFind" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueLinked" />
-      <module name="1.02-Queue" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackArray" />
-      <module name="1.03-Stack" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackLinked" />
-      <module name="1.03-Stack" />
+    <configuration name="WeightedUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeightedUnion" />
+      <module name="01-UnionFind" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +124,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackLinked" />
-        <item itemvalue="Application.StackArray" />
-        <item itemvalue="Application.QueueLinked" />
-        <item itemvalue="Application.QueueArray" />
-        <item itemvalue="Application.BagLinked" />
+        <item itemvalue="Application.WeightedUnion" />
+        <item itemvalue="Application.QuickUnion" />
+        <item itemvalue="Application.QuickFind" />
       </list>
     </recent_temporary>
   </component>
@@ -166,13 +135,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f418951-0440-45df-8fae-0ea4dc9733af" name="Default" comment="" />
-      <created>1581580081896</created>
+      <changelist id="4f00509b-c4df-423e-a66f-e770c711f417" name="Default" comment="" />
+      <created>1581579940742</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581580081896</updated>
-      <workItem from="1581580087804" duration="380000" />
-      <workItem from="1581669127511" duration="6930000" />
+      <updated>1581579940742</updated>
+      <workItem from="1581579945097" duration="139000" />
+      <workItem from="1581667752458" duration="313000" />
+      <workItem from="1581668101175" duration="1024000" />
     </task>
     <servers />
   </component>
@@ -180,41 +150,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1581675525306">
+    <state x="328" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581667827484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581675525306" />
-    <state x="328" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581669343504">
+    <state x="328" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581667827484" />
+    <state x="260" y="279" key="FileChooserDialogImpl" timestamp="1581669122225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="328" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581669343504" />
-    <state x="260" y="279" key="FileChooserDialogImpl" timestamp="1581669141770">
+    <state x="260" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581669122225" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1581669126024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581669141770" />
-    <state width="820" height="281" key="GridCell.Tab.0.bottom" timestamp="1581676072043">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581669126024" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1581669126024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="820" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581676072043" />
-    <state width="820" height="281" key="GridCell.Tab.0.center" timestamp="1581676072043">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581669126024" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1581669126024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="820" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581676072043" />
-    <state width="820" height="281" key="GridCell.Tab.0.left" timestamp="1581676072043">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581669126024" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1581669126024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="820" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581676072043" />
-    <state width="820" height="281" key="GridCell.Tab.0.right" timestamp="1581676072043">
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581669126024" />
+    <state x="702" y="395" key="com.intellij.ide.util.TipDialog" timestamp="1581668134640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="820" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581676072043" />
-    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581669446670">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1581669446670" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1581669423914">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581669423914" />
+    <state x="702" y="395" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581668134640" />
   </component>
 </project>
