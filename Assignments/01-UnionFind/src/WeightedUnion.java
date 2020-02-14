@@ -11,7 +11,7 @@ public class WeightedUnion implements UnionFind {
         }
         this.sizeOfTree = new int[count];
         for (int i = 0; i < count; i++) {
-           sizeOfTree[i] = 1;
+            sizeOfTree[i] = 1;
         }
     }
 
