@@ -15,6 +15,6 @@ public class Program {
         sw.step();
         sort.selectionSort(tp.processedStrngs);
         sw.close();
-        
+
     }
 }

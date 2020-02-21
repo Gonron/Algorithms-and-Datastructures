@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a47222-76e0-426e-ade4-2ab1979c2d68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SortingShakespear/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingShakespear/src/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingShakespear/src/Stopwatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingShakespear/src/TextProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortingShakespear/src/testText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="06a47222-76e0-426e-ade4-2ab1979c2d68" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582114792726</updated>
       <workItem from="1582114796170" duration="1630000" />
-      <workItem from="1582207348281" duration="10293000" />
+      <workItem from="1582207348281" duration="10350000" />
     </task>
     <servers />
   </component>
@@ -133,22 +125,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582216444739" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1582216630501">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1582217709646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582216630501" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1582216630500">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582217709646" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1582217709646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582216630500" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1582216630500">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582217709646" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1582217709646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582216630500" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1582216630501">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582217709646" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1582217709646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582216630501" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582217709646" />
     <state x="259" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582209177422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
