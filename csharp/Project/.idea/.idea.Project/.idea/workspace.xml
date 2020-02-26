@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c850663-5a23-4e18-a721-0d2db719957b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Project/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Shakespeare.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Sorting/Heap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Sorting/Insertion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Sorting/Merge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/Sorting/Selection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/TextProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/data/shakespeare-complete-works.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shakespeare/data/tobe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exercises/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Insertion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Selection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shakespeare/TextProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shakespeare/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Merge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Heap.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Shakespear/TextProcessor.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/TextProcessor.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/data/tobe.txt" />
+        <option value="$PROJECT_DIR$/Shakespeare/Sorting/Selection.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/Sorting/Insertion.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/Program.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/Sorting/Heap.cs" />
+        <option value="$PROJECT_DIR$/Shakespeare/Sorting/Merge.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YL9Xzjj1q7Q21R0FkbMBjtpAsw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Shakespear">
+    <configuration name="Shakespear" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Shakespeare/Shakespeare.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shakespeare" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Shakespeare/Shakespeare.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Shakespeare" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c850663-5a23-4e18-a721-0d2db719957b" name="Default Changelist" comment="" />
+      <created>1582711052372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582711052372</updated>
+      <workItem from="1582711057605" duration="9487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1582718077139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582718077139" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1582718077138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1582718077138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1582718077138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
+    <state x="0" y="59" key="SettingsEditor" timestamp="1582711687618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582711687618" />
+  </component>
+</project>
