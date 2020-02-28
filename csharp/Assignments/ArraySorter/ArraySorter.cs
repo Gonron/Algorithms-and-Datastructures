@@ -23,11 +23,11 @@ namespace ArraySorter {
         }
 
         public void SortDescending() {
-            
+            throw new NotImplementedException();
         }
 
-        public void Sort(T IComparable) {
-            
+        public void Sort(IComparable T) {
+            throw new NotImplementedException();
         }
     }
 }
