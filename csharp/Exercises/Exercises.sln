@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{A7B964D9-584F-43DF-9126-F07A29537659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searches", "Searches\Searches.csproj", "{F3935EA5-754F-4F72-A2E1-6FF10F4E87A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A7B964D9-584F-43DF-9126-F07A29537659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B964D9-584F-43DF-9126-F07A29537659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B964D9-584F-43DF-9126-F07A29537659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3935EA5-754F-4F72-A2E1-6FF10F4E87A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3935EA5-754F-4F72-A2E1-6FF10F4E87A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3935EA5-754F-4F72-A2E1-6FF10F4E87A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3935EA5-754F-4F72-A2E1-6FF10F4E87A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
