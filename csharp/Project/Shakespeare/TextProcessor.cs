@@ -10,10 +10,10 @@ namespace Shakespeare {
             return File.ReadAllText(path);
         }
 
-        private string[] SanitizeText(string text, string regexPattern) {
+        private IComparable[] SanitizeText(string text, string regexPattern) {
             var matches = Regex.Matches(text, regexPattern);
-            var matchedStrings = new string[matches.Count];
-            for (int i = 0; i < matches.Count; i++) {
+            var matchedStrings = new IComparable[matches.Count];
+            for (var i = 0; i < matches.Count; i++) {
                 matchedStrings[i] = matches[i].ToString();
             }
             return matchedStrings;
