@@ -2,9 +2,10 @@
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Shakespeare {
+namespace HashFunction {
     public class TextProcessor {
-        public IComparable[] ProcessedStrings { get; private set; }
+
+        public string[] ProcessedStrings { get; private set; }
         
         private static string ReadText(string path) {
             return File.ReadAllText(path);
