@@ -12,11 +12,19 @@ namespace BalancedSearchTree {
             }
             
             
-            var x = rb._root.right.right.left;
+            var x = rb._root.left.left.right;
             Console.WriteLine("Key: " + x.key);
             Console.WriteLine("Value: " + x.value);
             Console.WriteLine("Color: " + (x.color ? "RED" : "BLACK"));
             
+            /*
+             *         Color ain't correct
+             *                    70B
+             *                 50B      90B
+             *              30R   60B  80B  100B
+             *           20B    40B
+             *         10R   
+             */
 
 
         }
