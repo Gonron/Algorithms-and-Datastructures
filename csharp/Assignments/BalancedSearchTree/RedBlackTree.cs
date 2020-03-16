@@ -104,5 +104,13 @@ namespace BalancedSearchTree {
 
             throw new Exception("Key: " + key + " Doesn't exists");
         }
+        public int height() {
+            return height(_root);
+        }
+        private static int height(Node x) {
+            if (x == null) return -1;
+            return 1 + Math.Max(height(x.Left), height(x.Right));
+        }
     }
+    
 }

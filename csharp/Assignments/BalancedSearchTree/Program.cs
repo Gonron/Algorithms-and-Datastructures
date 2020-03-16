@@ -13,6 +13,7 @@ namespace BalancedSearchTree {
 
             Console.WriteLine(RB.Size());
             Console.WriteLine(RB.Get(10));
+            Console.WriteLine(RB.height());
         }
     }
 }
