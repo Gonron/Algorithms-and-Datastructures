@@ -22,11 +22,11 @@ namespace Shakespeare {
             watch.Stop();
             Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
             
-            /*
+            
             foreach (var words in tp.ProcessedStrings) {
                 Console.Write($"{words} ");
             }
-            */
+            
         }
     }
 }
