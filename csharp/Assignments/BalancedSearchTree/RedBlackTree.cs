@@ -3,12 +3,12 @@ using System.ComponentModel.Design;
 
 namespace BalancedSearchTree {
     public class RedBlackTree<Key, Value> where Key : IComparable<Key> {
-        private Node _root;
+        public Node _root;
 
         private static bool RED = true;
         private static bool BLACK = false;
 
-        private class Node {
+        public class Node {
             public Key key;
             public Value value;
             public Node left, right;
@@ -100,7 +100,6 @@ namespace BalancedSearchTree {
                 else if (cmp > 0) n = n.right;
                 else return n.value;
             }
-
             throw new Exception("Key: " + key + " Doesn't exists");
         }
 

@@ -8,13 +8,17 @@ namespace BalancedSearchTree {
             var values = new[] {100, 30, 20, 90, 80, 70, 40, 60, 50, 10, 100};
             
             for (var i = 0; i < values.Length; i++) {
-                rb.Put(i, values[i]);
+                rb.Put(values[i], i);
             }
             
-            Console.WriteLine("Size: " + rb.Size());
-            Console.WriteLine("Value on index 2: " + rb.Get(2));
-           
             
+            var x = rb._root.right.right.left;
+            Console.WriteLine("Key: " + x.key);
+            Console.WriteLine("Value: " + x.value);
+            Console.WriteLine("Color: " + (x.color ? "RED" : "BLACK"));
+            
+
+
         }
     }
 }
