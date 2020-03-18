@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel.Design;
 
 namespace BalancedSearchTree {
     public class RedBlackTree<Key, Value> where Key : IComparable<Key> {
@@ -9,17 +8,17 @@ namespace BalancedSearchTree {
         private static bool BLACK = false;
 
         public class Node {
-            public Key key;
-            public Value value;
-            public Node left, right;
-            public int size;
-            public bool color;
+            public Key Key;
+            public Value Value;
+            public Node Left, Right;
+            public int Size;
+            public bool Color;
 
             public Node(Key key, Value value, int size, bool color) {
-                this.key = key;
-                this.value = value;
-                this.size = size;
-                this.color = color;
+                this.Key = key;
+                this.Value = value;
+                this.Size = size;
+                this.Color = color;
             }
         }
 
@@ -27,36 +26,35 @@ namespace BalancedSearchTree {
             if (n == null) {
                 return false;
             }
-
-            return n.color == RED;
+            return n.Color == RED;
         }
 
         private static Node RotateLeft(Node n) {
-            var x = n.right;
-            n.right = x.left;
-            x.left = n;
-            x.color = n.color;
-            n.color = RED;
-            x.size = n.size;
-            n.size = 1 + Size(n.left) + Size(n.right);
+            var x = n.Right;
+            n.Right = x.Left;
+            x.Left = n;
+            x.Color = n.Color;
+            n.Color = RED;
+            x.Size = n.Size;
+            n.Size = 1 + Size(n.Left) + Size(n.Right);
             return x;
         }
 
         private static Node RotateRight(Node n) {
-            var x = n.left;
-            n.left = x.right;
-            x.right = n;
-            x.color = n.color;
-            n.color = RED;
-            x.size = n.size;
-            n.size = 1 + Size(n.left) + Size(n.right);
+            var x = n.Left;
+            n.Left = x.Right;
+            x.Right = n;
+            x.Color = n.Color;
+            n.Color = RED;
+            x.Size = n.Size;
+            n.Size = 1 + Size(n.Left) + Size(n.Right);
             return x;
         }
 
         private static void FlipColors(Node n) {
-            n.color = RED;
-            n.left.color = BLACK;
-            n.right.color = BLACK;
+            n.Color = RED;
+            n.Left.Color = BLACK;
+            n.Right.Color = BLACK;
         }
 
         public int Size() {
@@ -64,27 +62,27 @@ namespace BalancedSearchTree {
         }
 
         private static int Size(Node n) {
-            return n == null ? 0 : n.size;
+            return n == null ? 0 : n.Size;
         }
 
         public void Put(Key key, Value value) {
             _root = Put(_root, key, value);
-            _root.color = BLACK;
+            _root.Color = BLACK;
         }
 
         private static Node Put(Node n, Key key, Value value) {
             if (n == null) return new Node(key, value, 1, RED);
-            var cmp = key.CompareTo(n.key);
+            var cmp = key.CompareTo(n.Key);
             
-            if (cmp < 0) n.left = Put(n.left, key, value);
-            else if (cmp > 0) n.right = Put(n.right, key, value);
-            else n.value = value;
+            if (cmp < 0) n.Left = Put(n.Left, key, value);
+            else if (cmp > 0) n.Right = Put(n.Right, key, value);
+            else n.Value = value;
             
-            if (IsRed(n.right) && !IsRed(n.left)) n = RotateLeft(n);
-            if (IsRed(n.left) && IsRed(n.left.left)) n = RotateRight(n);
-            if (IsRed(n.left) && IsRed(n.right)) FlipColors(n);
+            if (IsRed(n.Right) && !IsRed(n.Left)) n = RotateLeft(n);
+            if (IsRed(n.Left) && IsRed(n.Left.Left)) n = RotateRight(n);
+            if (IsRed(n.Left) && IsRed(n.Right)) FlipColors(n);
 
-            n.size = Size(n.left) + Size(n.right) + 1;
+            n.Size = Size(n.Left) + Size(n.Right) + 1;
             return n;
         }
 
@@ -95,10 +93,10 @@ namespace BalancedSearchTree {
 
         private static Value Get(Node n, Key key) {
             while (n != null) {
-                var cmp = key.CompareTo(n.key);
-                if (cmp < 0) n = n.left;
-                else if (cmp > 0) n = n.right;
-                else return n.value;
+                var cmp = key.CompareTo(n.Key);
+                if (cmp < 0) n = n.Left;
+                else if (cmp > 0) n = n.Right;
+                else return n.Value;
             }
             throw new Exception("Key: " + key + " Doesn't exists");
         }
@@ -109,7 +107,7 @@ namespace BalancedSearchTree {
 
         private static int Height(Node n) {
             if (n == null) return -1;
-            return 1 + Math.Max(Height(n.left), Height(n.right));
+            return 1 + Math.Max(Height(n.Left), Height(n.Right));
         }
     }
 }
