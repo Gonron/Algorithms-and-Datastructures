@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c850663-5a23-4e18-a721-0d2db719957b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AirportQueue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/encodings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/AirportQueueSystem.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Clock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Passenger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/PassengerConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/PassengerProducer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Plane.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Queue/ArrayPriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Queue/IPriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Queue/IQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Queue/NotPrioritisingPassengerArrayQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Queue/PriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Status.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AirportQueueSystem/Time.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Project.sln" afterDir="false" />
     </list>
@@ -32,25 +43,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AirportQueue/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AirportQueue/Queues/ArrayPriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Time.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/TextProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Quick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AirportQueue/PassengerProducer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Trie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Queue/PriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Heap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Merge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Insertion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shakespeare/Sorting/Selection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Queue/NotPrioritisingPassengerArrayQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Status.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Plane.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Clock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Queue/ArrayPriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Queue/IPriorityQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Queue/IQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/PassengerProducer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/PassengerConsumer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AirportQueueSystem/Passenger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Shakespear/TextProcessor.cs" />
-        <option value="$PROJECT_DIR$/Shakespeare/Sorting/Trie.cs" />
-        <option value="$PROJECT_DIR$/Shakespeare/util/util.cs" />
         <option value="$PROJECT_DIR$/Shakespeare/Sorting/util.cs" />
         <option value="$PROJECT_DIR$/Shakespeare/data/tobe.txt" />
         <option value="$PROJECT_DIR$/Shakespeare/data/Test.txt" />
@@ -79,7 +98,29 @@
         <option value="$PROJECT_DIR$/AirportQueuingSystem/Plane.cs" />
         <option value="$PROJECT_DIR$/AirportQueuingSystem/Status.cs" />
         <option value="$PROJECT_DIR$/AirportQueuingSystem/Time.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/IQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/IPriorityQueue.cs" />
         <option value="$PROJECT_DIR$/AirportQueue/Program.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/PassengerConsumer.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/PassengerProducer.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/NotPrioritisingPassengerArrayQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/ArrayPriorityQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/PriorityQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueue/Queues/wqdwe.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Queue/NotPrioritisingPassengerArrayQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Queue/ArrayPriorityQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Time.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Status.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Program.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Plane.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/PassengerConsumer.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/PassengerProducer.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Passenger.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Clock.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Category.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Queue/IQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Queue/IPriorityQueue.cs" />
+        <option value="$PROJECT_DIR$/AirportQueueSystem/Queue/PriorityQueue.cs" />
       </list>
     </option>
   </component>
@@ -193,7 +234,8 @@
       <workItem from="1584533064687" duration="4578000" />
       <workItem from="1584538075717" duration="89000" />
       <workItem from="1584538166338" duration="162000" />
-      <workItem from="1584538349460" duration="440000" />
+      <workItem from="1584538349460" duration="1438000" />
+      <workItem from="1584626826008" duration="1616000" />
     </task>
     <servers />
   </component>
@@ -219,94 +261,94 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="507" key="GridCell.Tab.0.bottom" timestamp="1584538780017">
+    <state width="1877" height="507" key="GridCell.Tab.0.bottom" timestamp="1584540210992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582718077139" />
-    <state width="1877" height="507" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584538780017" />
-    <state width="1877" height="507" key="GridCell.Tab.0.center" timestamp="1584538780017">
+    <state width="1877" height="507" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210992" />
+    <state width="1877" height="507" key="GridCell.Tab.0.center" timestamp="1584540210991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
-    <state width="1877" height="507" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584538780017" />
-    <state width="1877" height="507" key="GridCell.Tab.0.left" timestamp="1584538780017">
+    <state width="1877" height="507" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210991" />
+    <state width="1877" height="507" key="GridCell.Tab.0.left" timestamp="1584540210991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
-    <state width="1877" height="507" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584538780017" />
-    <state width="1877" height="507" key="GridCell.Tab.0.right" timestamp="1584538780017">
+    <state width="1877" height="507" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210991" />
+    <state width="1877" height="507" key="GridCell.Tab.0.right" timestamp="1584540210991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582718077138" />
-    <state width="1877" height="507" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584538780017" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1584538621319">
+    <state width="1877" height="507" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210991" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.2.bottom" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.2.center" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.2.center" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.2.left" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.2.left" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.2.right" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.2.right" timestamp="1584540210985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.3.bottom" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210985" />
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state width="1877" height="347" key="GridCell.Tab.3.center" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.3.center" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.3.left" timestamp="1584538621319">
+    <state width="1877" height="347" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.3.left" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621319" />
-    <state width="1877" height="347" key="GridCell.Tab.3.right" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.3.right" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state width="1877" height="347" key="GridCell.Tab.4.bottom" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state width="1877" height="347" key="GridCell.Tab.4.center" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.4.center" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state width="1877" height="347" key="GridCell.Tab.4.left" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.4.left" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state width="1877" height="347" key="GridCell.Tab.4.right" timestamp="1584538621320">
+    <state width="1877" height="347" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state width="1877" height="347" key="GridCell.Tab.4.right" timestamp="1584540210986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584538621320" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1584538442162">
+    <state width="1877" height="347" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584540210986" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1584628001395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1584538442162" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1584628001395" />
     <state x="293" y="224" key="RiderGenerateDialog" timestamp="1584535905188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
