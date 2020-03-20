@@ -16,7 +16,7 @@ namespace AirportQueueSystem {
                 Planes.Add(new Plane(new Time(hour, 00, 00)));
             }
 
-            _queue = new NotPrioritisingPassengerArrayQueue(10000);
+            _queue = new PriorityQueue<Passenger>(10_000);
             _producer = new PassengerProducer(Planes, _queue);
             _consumer = new PassengerConsumer(Planes, _queue);
             _clock = new Clock(_producer, _consumer, new Time(05, 00, 00));

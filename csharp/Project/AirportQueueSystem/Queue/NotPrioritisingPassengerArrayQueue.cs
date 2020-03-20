@@ -22,7 +22,7 @@ namespace AirportQueueSystem.Queue {
         public Passenger Dequeue() {
             if (Size == 0)
                 throw new InvalidOperationException("Cannot remove from empty queue");
-            Passenger item = items[_head];
+            var item = items[_head];
             items[_head] = null;
             _head = (_head + 1) % items.Length;
             Size--;

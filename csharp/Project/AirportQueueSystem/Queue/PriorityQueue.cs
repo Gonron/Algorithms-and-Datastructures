@@ -21,8 +21,8 @@ namespace AirportQueueSystem.Queue {
         private void Heapify(int length, int i) {
             int largest = i;
 
-            int left = i * 2 + 1;
-            int right = i * 2 + 2;
+            var left = i * 2 + 1;
+            var right = i * 2 + 2;
 
             if (left < length && Less(Items[largest], Items[left])) {
                 largest = left;
@@ -47,8 +47,8 @@ namespace AirportQueueSystem.Queue {
 
         private void IncreaseSize() {
             if (Size + 1 > Items.Length * 0.75) {
-                T[] newArr = new T[Items.Length * 2];
-                for (int i = 0; i < Size; i++) {
+                var newArr = new T[Items.Length * 2];
+                for (var i = 0; i < Size; i++) {
                     newArr[i] = Items[i];
                 }
 
@@ -57,7 +57,7 @@ namespace AirportQueueSystem.Queue {
         }
 
         public T Dequeue() {
-            T pop = Items[0];
+            var pop = Items[0];
             Items[0] = Items[Size - 1];
             Items[Size - 1] = default(T);
             Size--;

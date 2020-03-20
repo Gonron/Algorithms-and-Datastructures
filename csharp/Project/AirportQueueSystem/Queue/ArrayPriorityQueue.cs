@@ -89,7 +89,7 @@ namespace AirportQueueSystem.Queue {
             return root;
         }
 
-        private void Exchange(T[] arr, int firstIndex, int secondIndex) {
+        private static void Exchange(T[] arr, int firstIndex, int secondIndex) {
             var temp = arr[firstIndex];
             arr[firstIndex] = arr[secondIndex];
             arr[secondIndex] = temp;
