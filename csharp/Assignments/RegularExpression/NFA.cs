@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace RegularExpression {
@@ -15,9 +15,8 @@ namespace RegularExpression {
 
             for (var i = 0; i < _states; i++) {
                 var lp = i;
-                if (_regx[i] == '(' || _regx[i] == '|') {
+                if (_regx[i] == '(' || _regx[i] == '|')
                     ops.Push(i);
-                }
                 else if (_regx[i] == ')') {
                     var or = ops.Pop();
                     if (_regx[or] == '|') {
@@ -42,33 +41,24 @@ namespace RegularExpression {
         public bool Recognizes(string txt) {
             var pc = new Bag<int>();
             var dfs = new DirectedDFS(_graph, 0);
-            for (var v = 0; v < _graph.GetVertices(); v++) {
-                if (dfs.Marked(v)) pc.Add(v);
-            }
+            for (var v = 0; v < _graph.GetVertices(); v++)
+                if (dfs.Marked(v))
+                    pc.Add(v);
 
             for (var i = 0; i < txt.Length; i++) {
                 var match = new Bag<int>();
-                foreach (var v in pc) {
-                    if (v < _states) {
-                        if (_regx[v] == txt[i] || _regx[v] == '.') {
+                foreach (var v in pc)
+                    if (v < _states)
+                        if (_regx[v] == txt[i] || _regx[v] == '.')
                             match.Add(v + 1);
-                        }
-                    }
-                }
-
                 pc = new Bag<int>();
-                dfs = new DirectedDFS(_graph, match.GetSize());
-                for (var v = 0; v < _graph.GetVertices(); v++) {
-                    if (dfs.Marked(v)) pc.Add(v);
-                }
+                dfs = new DirectedDFS(_graph, match);
+                for (var v = 0; v < _graph.GetVertices(); v++)
+                    if (dfs.Marked(v))
+                        pc.Add(v);
             }
 
-            foreach (int v in pc) {
-                if (v == _states) {
-                    return true;
-                }
-            }   
-            return false; 
+            return pc.Any(v => v == _states);
         }
     }
 }
