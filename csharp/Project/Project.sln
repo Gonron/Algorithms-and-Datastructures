@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportQueueSystem", "Airpo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingShakespeare", "SearchingShakespeare\SearchingShakespeare.csproj", "{BAF0D328-A2D4-49C1-BDEC-8068EF82E093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineRoutingSystem", "AirlineRoutingSystem\AirlineRoutingSystem.csproj", "{BA21C6E8-04CE-4758-9D54-29B15938DF42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BAF0D328-A2D4-49C1-BDEC-8068EF82E093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF0D328-A2D4-49C1-BDEC-8068EF82E093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF0D328-A2D4-49C1-BDEC-8068EF82E093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA21C6E8-04CE-4758-9D54-29B15938DF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA21C6E8-04CE-4758-9D54-29B15938DF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA21C6E8-04CE-4758-9D54-29B15938DF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA21C6E8-04CE-4758-9D54-29B15938DF42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
