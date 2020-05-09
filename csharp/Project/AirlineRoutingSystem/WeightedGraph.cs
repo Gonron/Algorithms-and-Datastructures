@@ -12,9 +12,9 @@ namespace AirlineRoutingSystem {
         }
 
         public class Edge {
-            internal int From;
-            internal int To;
-            internal double Weight;
+            public int From;
+            public int To;
+            public double Weight;
 
             internal Edge(int from, int to, double weight) {
                 From = from;

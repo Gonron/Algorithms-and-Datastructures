@@ -8,7 +8,7 @@ namespace AirlineRoutingSystem {
             IGraph graph;
             WeightedGraph wGraph;
             var sw = new Stopwatch();
-            /*
+            
             #region BreadthFirstSearch
 
             Console.WriteLine("Breadth-First...");
@@ -58,7 +58,7 @@ namespace AirlineRoutingSystem {
             sw.Reset();
 
             #endregion
-*/
+            
             #region Djikstra
 
             wGraph = new WeightedGraph(6);

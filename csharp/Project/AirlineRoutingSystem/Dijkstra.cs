@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Data;
 using AirlineRoutingSystem.basics;
 
 namespace AirlineRoutingSystem {
@@ -8,7 +9,7 @@ namespace AirlineRoutingSystem {
         private int _source;
         private int[] _edgeTo;
         private double[] _distTo;
-        private PriorityQueue<Path> _pqMin = new PriorityQueue<Path>(6_000);
+        private PriorityQueue<Path> _pqMin = new PriorityQueue<Path>(1234);
 
         public Dijkstra(WeightedGraph graph, int source) {
             _graph = graph;
@@ -17,11 +18,15 @@ namespace AirlineRoutingSystem {
             _edgeTo = new int[V];
             _distTo = new double[V];
 
+            // Debugging
+            Console.WriteLine("graph: " + graph);
+            Console.WriteLine("graph.V: " + graph.V);
+            
             for (var v = 0; v < V; v++) {
                 _edgeTo[v] = -1;
                 _distTo[v] = double.PositiveInfinity;
             }
-
+            
             _edgeTo[source] = source;
             _distTo[source] = 0;
             _pqMin.Enqueue(new Path(source, 0.0));
