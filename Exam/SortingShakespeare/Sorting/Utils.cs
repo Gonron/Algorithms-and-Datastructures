@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace SortingShakespeare.Sorting {
     public class Utils {
-        public static bool Less(IComparable v, IComparable w) {
-            return v.CompareTo(w) < 0;
+        public static bool Less(string v, string w) {
+            return string.Compare(v, w, StringComparison.Ordinal) < 0;
         }
 
         public static void Swap(string[] arr, int i, int j) {
@@ -19,7 +19,7 @@ namespace SortingShakespeare.Sorting {
             }
         }
 
-        public static bool isSorted(IComparable[] arr) {
+        public static bool isSortedMin(string[] arr) {
             for (var i = 1; i < arr.Length; i++) {
                 if (Less(arr[i], arr[i - 1])) {
                     return false;
@@ -28,5 +28,33 @@ namespace SortingShakespeare.Sorting {
 
             return true;
         }
+
+        public static bool isSortedMax(string[] arr) {
+            for (var i = 1; i < arr.Length; i++) {
+                if (Less(arr[i - 1], arr[i])) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        /* Artifacts
+         
+         public static bool Less(IComparable v, IComparable w) {
+            return v.CompareTo(w) < 0;
+        }
+         
+         public static bool isSorted(IComparable[] arr) {
+            for (var i = 1; i < arr.Length; i++) {
+                if (Less(arr[i], arr[i - 1])) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+         
+         */
     }
 }
