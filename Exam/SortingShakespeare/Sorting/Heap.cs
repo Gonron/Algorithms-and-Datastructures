@@ -7,20 +7,20 @@ namespace SortingShakespeare.Sorting {
             var n = arr.Length;
 
             for (var i = n / 2 - 1; i >= 0; i--) {
-                if (!reverse) {
+                if (!reverse) { // MinSort
                     MinHeapify(arr, n, i);
                 }
-                else {
+                else { // MaxSort
                     MaxHeapify(arr, n, i);
                 }
             }
 
             for (var i = n - 1; i >= 0; i--) {
                 Utils.Swap(arr, i, 0);
-                if (!reverse) {
+                if (!reverse) { // MinSort
                     MinHeapify(arr, i, 0);
                 }
-                else {
+                else { // MaxSort
                     MaxHeapify(arr, i, 0);
                 }
             }

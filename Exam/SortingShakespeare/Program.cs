@@ -11,7 +11,7 @@ namespace SortingShakespeare {
             var tp = new TextProcessor();
             var stopWatch = new Stopwatch();
 
-            const string filename = "Shakespeare.txt";
+            const string filename = "SmallText.txt";
             const string regex = @"[a-z][a-z'-]*[a-z]?|[a-z]";
             const string regex2 = @"[a-z]+'?[a-z]";
             
@@ -22,7 +22,7 @@ namespace SortingShakespeare {
             tp.ProcessTextFile(path, regex);
             stopWatch.Start();
             
-            Heap.Sort(tp.ProcessedStrings);
+            Quick.Sort(tp.ProcessedStrings);
             Console.WriteLine(Utils.isSortedMin(tp.ProcessedStrings));
 
             stopWatch.Stop();
