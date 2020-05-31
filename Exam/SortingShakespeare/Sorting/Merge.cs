@@ -5,7 +5,10 @@ namespace SortingShakespeare.Sorting {
         private static string[] _temp; // Temp array for merges
 
         public static void Sort(string[] arr) {
-            Console.WriteLine($"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n log(n)) \nSpace Complexity: \n- Worst O(n)\n");
+            Console.WriteLine(
+                $"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n log(n)) " +
+                $"\nSpace Complexity: \n- Worst O(n)\n");
+            
             var n = arr.Length;
             _temp = new string[n]; // Allocates space
             Sort(arr, 0, n - 1);

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Data;
+﻿﻿using System;
+
 
 namespace SortingShakespeare.Sorting {
-    public class Quick {
+    public class QuickTwo {
         public static void Sort(string[] arr) {
             Console.WriteLine(
                 $"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n\xB2) " +

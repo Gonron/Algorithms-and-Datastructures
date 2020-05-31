@@ -22,6 +22,7 @@ namespace SortingShakespeare.Sorting {
         public static bool isSortedMin(string[] arr) {
             for (var i = 1; i < arr.Length; i++) {
                 if (Less(arr[i], arr[i - 1])) {
+                    Console.WriteLine($"{arr[i]} | {arr[i-1]}");
                     return false;
                 }
             }

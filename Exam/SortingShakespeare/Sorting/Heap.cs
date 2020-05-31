@@ -10,10 +10,6 @@ namespace SortingShakespeare.Sorting {
 
             var n = arr.Length;
             BuildHeap(arr, n);
-            Console.WriteLine("\nHeap build");
-            foreach (var words in arr) {
-                Console.Write($"{words} ");
-            }
             Sort(arr, n);
         }
 
@@ -23,11 +19,6 @@ namespace SortingShakespeare.Sorting {
                 // Swaps last ele with max
                 Utils.Swap(arr, i, 0);
                 SiftDown(arr, i, 0);
-                Console.WriteLine("\n" + arr[i] + " " + i);
-                foreach (var words in arr) {
-                    Console.Write($"{words} ");
-                }
-                Console.WriteLine("");
             }
         }
 
@@ -40,7 +31,6 @@ namespace SortingShakespeare.Sorting {
         }
 
         private static void SiftDown(string[] arr, int n, int i) {
-            Console.WriteLine("\n" + n + " " +i);
             var p = i; // Parent
             var l = i * 2 + 1; // Left-child
             var r = i * 2 + 2; // Right-child
