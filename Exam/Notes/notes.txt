@@ -1,0 +1,21 @@
+Use Heapsort
+- If space is low
+- don't care about stability
+
+Use Merge
+- If space is no issue
+- care about stability
+
+
+
+
+Til eksamen start med at snakke om sorting, og derefter drej den ind på searching
+
+Interpolation search 
+ - minder om at slå op i en bog.
+
+DFS - Stack
+BFS - Queue
+
+
+

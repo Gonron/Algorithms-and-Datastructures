@@ -5,6 +5,7 @@ using System.Data;
 namespace SortingShakespeare.Sorting {
     public class Quick {
         public static void Sort(string[] arr, bool reverse = false) {
+            Console.WriteLine($"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n\xB2) \nSpace Complexity: \n- Worst O(log(n)) \n");
             var n = arr.Length;
             Sort(arr, 0, n - 1);
         }

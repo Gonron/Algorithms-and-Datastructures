@@ -1,66 +1,60 @@
 ﻿using System;
+using System.Data;
 
 namespace SortingShakespeare.Sorting {
     public class Heap {
-        public static void Sort(string[] arr, bool reverse = false) {
-            Console.WriteLine($"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n log(n)) \nSpace Complexity: \n- Worst O(1) \n");
+        public static void Sort(string[] arr) {
+            Console.WriteLine(
+                $"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n log(n)) " +
+                $"\nSpace Complexity: \n- Worst O(1) \n");
+
             var n = arr.Length;
-
-            for (var i = n / 2 - 1; i >= 0; i--) {
-                if (!reverse) { // MinSort
-                    MinHeapify(arr, n, i);
-                }
-                else { // MaxSort
-                    MaxHeapify(arr, n, i);
-                }
+            BuildHeap(arr, n);
+            Console.WriteLine("\nHeap build");
+            foreach (var words in arr) {
+                Console.Write($"{words} ");
             }
+            Sort(arr, n);
+        }
 
+        private static void Sort(string[] arr, int n) {
+            // Sorts from the back
             for (var i = n - 1; i >= 0; i--) {
+                // Swaps last ele with max
                 Utils.Swap(arr, i, 0);
-                if (!reverse) { // MinSort
-                    MinHeapify(arr, i, 0);
+                SiftDown(arr, i, 0);
+                Console.WriteLine("\n" + arr[i] + " " + i);
+                foreach (var words in arr) {
+                    Console.Write($"{words} ");
                 }
-                else { // MaxSort
-                    MaxHeapify(arr, i, 0);
-                }
+                Console.WriteLine("");
             }
         }
 
-        private static void MinHeapify(string[] arr, int n, int i) {
-            var min = i;
-            var l = i * 2 + 1;
-            var r = i * 2 + 2;
-
-            if (l < n && Utils.Less(arr[min], arr[l])) {
-                min = l;
-            }
-
-            if (r < n && Utils.Less(arr[min], arr[r])) {
-                min = r;
-            }
-
-            if (i != min) {
-                Utils.Swap(arr, i, min);
-                MinHeapify(arr, n, min);
+        private static void BuildHeap(string[] arr, int n) {
+            // Skips the leaf-nodes - We already know their parents,
+            // therefor they don't need to be moved
+            for (var i = n / 2 - 1; i >= 0; i--) {
+                SiftDown(arr, n, i);
             }
         }
 
-        private static void MaxHeapify(string[] arr, int n, int i) {
-            var max = i;
-            var l = i * 2 + 1;
-            var r = i * 2 + 2;
-
-            if (l < n && Utils.Less(arr[l], arr[max])) {
-                max = l;
+        private static void SiftDown(string[] arr, int n, int i) {
+            Console.WriteLine("\n" + n + " " +i);
+            var p = i; // Parent
+            var l = i * 2 + 1; // Left-child
+            var r = i * 2 + 2; // Right-child
+            if (l < n && Utils.Less(arr[p], arr[l])) {
+                p = l;
             }
 
-            if (r < n && Utils.Less(arr[r], arr[max])) {
-                max = r;
+            if (r < n && Utils.Less(arr[p], arr[r])) {
+                p = r;
             }
 
-            if (i != max) {
-                Utils.Swap(arr, i, max);
-                MaxHeapify(arr, n, max);
+            if (i != p) {
+                Utils.Swap(arr, i, p);
+                SiftDown(arr, n, p);
             }
         }
     }

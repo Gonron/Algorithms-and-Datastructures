@@ -13,7 +13,7 @@ namespace SortingShakespeare {
 
             const string filename = "SmallText.txt";
             const string regex = @"[a-z][a-z'-]*[a-z]?|[a-z]";
-            const string regex2 = @"[a-z]+'?[a-z]";
+            //const string regex2 = @"[a-z]+'?[a-z]";
             
             // This is to find the text files - Without having a long path string.
             Directory.SetCurrentDirectory(Path.Combine(Environment.CurrentDirectory, @"../../../"));
@@ -22,7 +22,7 @@ namespace SortingShakespeare {
             tp.ProcessTextFile(path, regex);
             stopWatch.Start();
             
-            Quick.Sort(tp.ProcessedStrings);
+            Heap.Sort(tp.ProcessedStrings);
             Console.WriteLine(Utils.isSortedMin(tp.ProcessedStrings));
 
             stopWatch.Stop();
