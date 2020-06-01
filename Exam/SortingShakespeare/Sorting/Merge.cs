@@ -28,7 +28,7 @@ namespace SortingShakespeare.Sorting {
             var j = mid + 1;
 
             for (var k = low; k <= high; k++) {
-                // Copy  arr to _temp
+                // Copy arr to _temp
                 _temp[k] = arr[k];
             }
 

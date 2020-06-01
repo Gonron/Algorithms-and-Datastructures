@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -23,10 +24,12 @@ namespace SortingShakespeare {
 
             #region Sorting
 
+            
+            
             tp.ProcessTextFile(path, regex);
             stopWatch.Start();
 
-            Trie.Sort(tp.ProcessedStrings);
+            Quick.Sort(tp.ProcessedStrings);
 
             stopWatch.Stop();
             Console.WriteLine($"isSorted: {Utils.isSortedMin(tp.ProcessedStrings)}");
@@ -60,7 +63,10 @@ namespace SortingShakespeare {
             }
 
             #endregion
-            
+
+
+
+
         }
     }
 }
