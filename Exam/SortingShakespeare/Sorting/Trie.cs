@@ -43,10 +43,8 @@ namespace SortingShakespeare.Sorting {
             }
 
             public void Insert(TrieNode node, string str, string value) {
-                //Console.WriteLine(str);
                 foreach (var c in str) {
                     var currIndex = GetHashValue(c);
-                    //Console.WriteLine($"char: {c} HashValue: {currIndex}");
                     var childNode = node.Children[currIndex];
                     // If the current character does not exist in the array, insert it
                     if (childNode == null) {
@@ -64,8 +62,9 @@ namespace SortingShakespeare.Sorting {
 
             public static void PrintTrie(TrieNode node) {
                 if (node == null) return;
-                if (!string.IsNullOrEmpty(node.Value))
+                if (!string.IsNullOrEmpty(node.Value)) {
                     Console.WriteLine($"{node.Value} {node.Count}");
+                }
                 // here you can play with the order of the children
                 foreach (var child in node.Children) {
                     PrintTrie(child);
@@ -75,7 +74,7 @@ namespace SortingShakespeare.Sorting {
             private static int GetHashValue(char c) {
                 // Return 26 if char is '
                 // Return 27 if char is -
-                // Default return value is char - 97
+                // Default return value is char - 95
                 return c switch {
                     '\'' => 0,
                     '-' => 1,

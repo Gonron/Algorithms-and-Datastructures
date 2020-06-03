@@ -9,7 +9,10 @@ namespace SortingShakespeare.Sorting {
                 $"\nSpace Complexity: \n- Worst O(1) \n");
 
             var n = arr.Length;
-            BuildHeap(arr, n);
+            BuildMaxHeap(arr, n);
+            foreach (var words in arr) {
+                Console.Write($"{words} ");
+            }
             Sort(arr, n);
         }
 
@@ -22,7 +25,7 @@ namespace SortingShakespeare.Sorting {
             }
         }
 
-        private static void BuildHeap(string[] arr, int n) {
+        private static void BuildMaxHeap(string[] arr, int n) {
             // Skips the leaf-nodes - We already know their parents,
             // therefor they don't need to be moved
             for (var i = n / 2 - 1; i >= 0; i--) {

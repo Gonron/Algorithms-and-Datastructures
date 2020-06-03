@@ -39,23 +39,5 @@ namespace SortingShakespeare.Sorting {
 
             return true;
         }
-
-        /* Artifacts
-         
-         public static bool Less(IComparable v, IComparable w) {
-            return v.CompareTo(w) < 0;
-        }
-         
-         public static bool isSorted(IComparable[] arr) {
-            for (var i = 1; i < arr.Length; i++) {
-                if (Less(arr[i], arr[i - 1])) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-         
-         */
     }
 }

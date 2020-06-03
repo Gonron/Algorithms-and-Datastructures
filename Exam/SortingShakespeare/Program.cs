@@ -23,8 +23,6 @@ namespace SortingShakespeare {
             var path = $@"{Directory.GetCurrentDirectory()}\Data\{filename}";
 
             #region Sorting
-
-            
             
             tp.ProcessTextFile(path, regex);
             stopWatch.Start();

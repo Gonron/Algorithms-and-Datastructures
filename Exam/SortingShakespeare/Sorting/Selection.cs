@@ -8,9 +8,9 @@ namespace SortingShakespeare.Sorting {
                 $"\nSpace Complexity: \n- Worst O(1) \n");
             
             var n = arr.Length;
-            for (var i = 0; i < n - 1; i++) {
+            for (var i = 0; i < n - 1; i++) { // Current min
                 var pointer = i;
-                for (var j = i + 1; j < n; j++) {
+                for (var j = i + 1; j < n; j++) { // Current item
                     // Swap the elements in 'less' to reverse the sort
                     if (!reverse) { // MinSort
                         if (Utils.Less(arr[j], arr[pointer]))

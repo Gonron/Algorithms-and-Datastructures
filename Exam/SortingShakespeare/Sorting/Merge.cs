@@ -8,7 +8,7 @@ namespace SortingShakespeare.Sorting {
             Console.WriteLine(
                 $"\nTime Complexity: \n- Best: O(n log(n)) \n- Worst: O(n log(n)) " +
                 $"\nSpace Complexity: \n- Worst O(n)\n");
-            
+
             var n = arr.Length;
             _temp = new string[n]; // Allocates space
             Sort(arr, 0, n - 1);
@@ -16,7 +16,9 @@ namespace SortingShakespeare.Sorting {
 
         private static void Sort(string[] arr, int low, int high) {
             if (high <= low) return;
-            var mid = low + (high - low) / 2;
+            //var mid = (low + high) / 2; // if both is INT_MAX, it will cause integer overflow
+            var mid = low + (high - low) / 2; // Better approach
+            
             Sort(arr, low, mid); // Sorts left half
             Sort(arr, mid + 1, high); // Sorts right half
             MergeArrays(arr, low, mid, high); // Merges results 
