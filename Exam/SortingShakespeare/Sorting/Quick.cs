@@ -15,12 +15,7 @@
 
         private static void Sort(string[] arr, int left, int right) {
             if (left < right) {
-                var pivot = Partition(arr, left, right); 
-                Console.WriteLine(pivot);
-                foreach (var words in arr) {
-                    Console.Write($"{words} ");
-                }
-                Console.WriteLine("\n");
+                var pivot = Partition(arr, left, right);
                 Sort(arr, left, pivot - 1); 
                 Sort(arr, pivot + 1, right);
             }

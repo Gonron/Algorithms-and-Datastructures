@@ -10,9 +10,6 @@ namespace SortingShakespeare.Sorting {
 
             var n = arr.Length;
             BuildMaxHeap(arr, n);
-            foreach (var words in arr) {
-                Console.Write($"{words} ");
-            }
             Sort(arr, n);
         }
 
