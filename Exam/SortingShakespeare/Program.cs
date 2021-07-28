@@ -14,7 +14,7 @@ namespace SortingShakespeare {
             var tp = new TextProcessor();
             var stopWatch = new Stopwatch();
 
-            const string filename = "Shakespeare.txt";
+            const string filename = "SmallText.txt";
             const string regex = @"[a-z]+'?-?[a-z]*";
             const bool isSearching = false;
 
@@ -27,14 +27,14 @@ namespace SortingShakespeare {
             tp.ProcessTextFile(path, regex);
             stopWatch.Start();
                 
-            Trie.Sort(tp.ProcessedStrings);
+            Quick.Sort(tp.ProcessedStrings);
 
             stopWatch.Stop();
             Console.WriteLine($"isSorted: {Utils.isSortedMin(tp.ProcessedStrings)}");
             Console.WriteLine($"Execution Time: {stopWatch.Elapsed} for sorting {tp.ProcessedStrings.Length} elements.\n");
 
             // Preventing showing the sorted Shakespeare.txt
-            if (!filename.Equals("Shakespeare.txt")) {
+            if (!filename.Equals("SmallText.txt")) {
                 foreach (var words in tp.ProcessedStrings) {
                     Console.Write($"{words} ");
                 }
